@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="button"] {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#MensajeGeneral {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+#opciones {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#resultado,
+#resultado2,
+#resultado3,
+#resultado4 {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff;
+}
+
+.item5,
+.item6 {
+    color: #777;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 600px) {
+
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6 {
+        padding: 10px;
+    }
+}

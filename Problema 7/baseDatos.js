@@ -15,7 +15,7 @@ function abrirBaseDeDatos() {
   
       request.onupgradeneeded = (event) => {
         db = event.target.result;
-        // Crea el almacén si no existe
+        
         if (!db.objectStoreNames.contains(TASK_STORE_NAME)) {
           db.createObjectStore(TASK_STORE_NAME, { keyPath: "id", autoIncrement: true });
         }
@@ -24,7 +24,7 @@ function abrirBaseDeDatos() {
       request.onsuccess = (event) => {
         db = event.target.result;
         console.log("Base de datos abierta correctamente");
-        resolve(); // Resuelve la promesa cuando la base de datos está abierta
+        resolve();
       };
     });
   }
