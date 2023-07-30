@@ -1,0 +1,29 @@
+.contenedor{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.contAux{
+    background-color: rgba(206, 206, 202, 0.466);
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap:12px
+}
+.contAuxLista{
+    background-color: rgba(206, 206, 202, 0.466);
+    padding: 4px;
+}
+.botonPrincipal{
+    background-color: rgb(13, 180, 13);
+    color: white;
+    border:none;
+    padding: 4px;
+}
+.exito{
+    color:rgb(13, 180, 13);
+}
+.fallo{
+    color:red;
+}
