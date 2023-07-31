@@ -18,6 +18,11 @@ En esta prueba técnica, he utilizado las siguientes tecnologías y herramientas
 
 - HTML , JavaScript , CSS
 
+## Me parecio intesante ...
+
+<image src="./ImagenesMuestra/2.png" alt="Pokemon">
+<image src="./ImagenesMuestra/1.png" alt="Tareas>
+
 
 ## Contacto
 
