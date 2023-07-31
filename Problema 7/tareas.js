@@ -49,13 +49,11 @@ async function crearFilasTareas() {
   // Función para actualizar una tarea
   async function actualizarTarea(tarea) {
     await editarTarea(tarea);
-    console.log("Tarea actualizada:", tarea);
   }
   
   // Función para borrar una tarea
  async function borrarTarea(id) {
     await borrarTareaPorId(id);
-    console.log("Borrar tarea con ID:", id);
     crearFilasTareas();
   }
 

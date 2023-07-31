@@ -13,7 +13,7 @@ async function fetchPokemonData(apiUrl , callback) {
         })
         .then(data => {
             
-            console.log(data);
+            
             callback(data);
         })
         .catch(error => {

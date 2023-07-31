@@ -106,7 +106,6 @@ function consultar6StatsBasePorID(){
             const element = arrayStats[index];
             objeto[element.stat.name]= ({ base_stat: element.base_stat});            
         }
-        console.log(objeto);
         resultado.innerText=`Puede observar el resultado en la consola.`;
     });
     }else{
@@ -129,7 +128,6 @@ function consultarPokemonsPorID_Y_Ordenar(array, orden){
     });
     Promise.all(promesas).then(()=>{
         pokemons.sort((a, b) => a[orden] > b[orden] ? 1 : -1);
-        console.log(pokemons);
     })
 }
 //Item 6
