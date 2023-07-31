@@ -18,14 +18,16 @@ En esta prueba técnica, he utilizado las siguientes tecnologías y herramientas
 
 - HTML , JavaScript , CSS
 
-## Me parecio intesante ...
+## Me parecio interesante ...
 
-<image src="./ImagenesMuestra/2.png" alt="Pokemon">
-<image src="./ImagenesMuestra/1.png" alt="Tareas>
+<div>
+    <p>
+        <image src="./ImagenesMuestra/2.png" width="400px" alt="Pokemon">
+        <image src="./ImagenesMuestra/1.png" width="400px" alt="Tareas">
+    </p>  
+</div>
 
-
-## Contacto
-
+## Contacto: 
 Si tienes alguna pregunta o comentario sobre la solución presentada en este repositorio, no dudes en contactarme a través de matiasbasilotta@gmail.com
 
 ¡Gracias por revisar mi prueba técnica! Espero que encuentres la solución satisfactoria y adecuada para las necesidades de AVE MARKET IT. Estoy emocionado por la oportunidad de formar parte de su equipo y contribuir con mis habilidades y conocimientos.
