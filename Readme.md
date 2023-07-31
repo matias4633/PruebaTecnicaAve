@@ -20,8 +20,8 @@ En esta prueba técnica, he utilizado las siguientes tecnologías y herramientas
 
 ## Me parecio intesante ...
 
-<image src="./ImagenesMuestra/2.png" alt="Pokemon">
-<image src="./ImagenesMuestra/1.png" alt="Tareas>
+<image src="./ImagenesMuestra/2.png" width="200px" alt="Pokemon">
+<image src="./ImagenesMuestra/1.png" width="200px" alt="Tareas>
 
 
 ## Contacto
